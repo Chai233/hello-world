@@ -19,7 +19,7 @@ Java programs must be compiled before you run them
 [interpreter language, complier language]
 
 example:
-> String s;
+    String s;
 > String s2 = s;            // The constructor well copy what is saved in s. Usually there would be an address, but this time, there is nothing. So nothing copied, s2 points to nothing.
 > s = "Yow!"
 > - s2 = "Yow!"             // Java may reuse the string which s points to, in the sake of saving memory
