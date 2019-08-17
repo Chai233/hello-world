@@ -3,8 +3,9 @@ weekly time spending: 10 hrs (3hrs video + 4 hrs assignments + 3 hrs reading)
 # Aug 17th, 2019
 objected-oriented: can identify what class it is and choose/assign relative methods based on the class
 
-## Constructor ##
+## Constructor
 example:
+
 String myString;            // step1: delare a variable
 myString = new String();    // step2 & step3: construct emply string, ie. construct an object; and assign it to myString
 myString = "Yow!";          // myString now points to a new String object with data 'Yow!'
