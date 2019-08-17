@@ -6,6 +6,7 @@ objected-oriented: can identify what class it is and choose/assign relative meth
 ## Constructor
 
 **example:**
+
     String myString;            // step1: delare a variable
     myString = new String();    // step2 & step3: construct emply string, ie. construct an object; and assign it to myString
     myString = "Yow!";          // myString now points to a new String object with data 'Yow!'
@@ -20,6 +21,7 @@ Java programs must be compiled before you run them
 *interpreter language, complier language*
 
 **example:**
+
     String s;
     String s2 = s;            // The constructor well copy what is saved in s. Usually there would be an address, but this time, there is nothing. So nothing copied, s2 points to nothing.
     s = "Yow!"
@@ -43,6 +45,7 @@ Strings in Java are immutable. Once they are constucted, you can never change th
 >system.in: an inputstream object that reads from the keyboard.
 
 readline is defined on BufferedReader objects
+
     Q: How do we construct a BufferedReader?      A: with an InputStreamReader
     Q: How do we construct a InputStreamReader?   A: with an InputStream
     Q: How do we construct a InputStream?      A: system.in is one            //Figure all the stuff out via online java libraries API - java.io
