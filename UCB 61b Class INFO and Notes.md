@@ -10,12 +10,12 @@ objected-oriented: can identify what class it is and choose/assign relative meth
     myString = new String();    // step2 & step3: construct emply string, ie. construct an object; and assign it to myString
     myString = "Yow!";          // myString now points to a new String object with data 'Yow!'
 
-allowcate a chunck of memory and name it (use a name, which is also stored in a chunck of memory, to reference/ point to it), but it has not initialized with data
-"new string()" is a constructor, or a constructor signature
+- allowcate a chunck of memory and name it (use a name, which is also stored in a chunck of memory, to reference/ point to it), but it has not initialized with data
+- "new string()" is a constructor, or a constructor signature
 
 Java programs must be compiled before you run them
-.java is complied .class (in a lower-level language)
-.class to Java Virtual Machine, and run it, and get the answer
+- .java is complied .class (in a lower-level language)
+- .class to Java Virtual Machine, and run it, and get the answer
 \[interpreter language, complier language]
 
 example:
