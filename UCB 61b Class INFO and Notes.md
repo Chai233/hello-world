@@ -15,7 +15,7 @@ allowcate a chunck of memory and name it (use a name, which is also stored in a 
 Java programs must be compiled before you run them
 .java is complied .class (in a lower-level language)
 .class to Java Virtual Machine, and run it, and get the answer
-[interpreter language, complier language]
+\[interpreter language, complier language]
 
 example:
 > String s;
@@ -36,4 +36,16 @@ String s3 = s2.concat("!!");      // s3 = s2 + "!!"; s3 → YOW!!!; no variable 
 
 Strings in Java are immutable. Once they are constucted, you can never change the content. Most Java classes allow changes of their inner field, but String is an exception.
 
-## I/O objects
+## I/O Classes & Objects
+system.out: a printstream object that outputs to the screen. It references a printstream object
+system.in: an inputstream object that reads from the keyboard.
+
+readline is defined on BufferedReader objects
+Q: How do we construct a BufferedReader?      A: with an InputStreamReader
+Q: How do we construct a InputStreamReader?   A: with an InputStream
+Q: How do we construct a InputStream?      A: system.in is one            //Figure all the stuff out via online java libraries API - java.io
+InputStream - read raw data
+InputStreamReader - compose raw data into characters
+BufferedReader - composed characters into a line
+
+
