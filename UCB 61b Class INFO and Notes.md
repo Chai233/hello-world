@@ -6,8 +6,8 @@ objected-oriented: can identify what class it is and choose/assign relative meth
 ## Constructor
 example: 
 > String myString;            // step1: delare a variable
-> myString = new String();    // step2 & step3: construct emply string, ie. construct an object; and assign it to myString
-> myString = "Yow!";          // myString now points to a new String object with data 'Yow!'
+myString = new String();    // step2 & step3: construct emply string, ie. construct an object; and assign it to myString
+myString = "Yow!";          // myString now points to a new String object with data 'Yow!'
 
 allowcate a chunck of memory and name it (use a name, which is also stored in a chunck of memory, to reference/ point to it), but it has not initialized with data
 "new string()" is a constructor, or a constructor signature
@@ -36,4 +36,4 @@ String s3 = s2.concat("!!");      // s3 = s2 + "!!"; s3 → YOW!!!; no variable 
 
 Strings in Java are immutable. Once they are constucted, you can never change the content. Most Java classes allow changes of their inner field, but String is an exception.
 
-## I/o objects
+## I/O objects
