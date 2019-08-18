@@ -1,7 +1,8 @@
 weekly time spending: 10 hrs (3hrs video + 4 hrs assignments + 3 hrs reading)
 
-# Recode
-Aug 17th, 2019: Watch the video and do the notes
+# Record
+- Lecture Video: Aug 17th
+- Reading: Sierra & Bates, pp. 1–9, 18–19, 84
 
 # Notes
 objected-oriented: can identify what class it is and choose/assign relative methods based on the class
