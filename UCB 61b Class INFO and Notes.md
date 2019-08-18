@@ -1,9 +1,12 @@
 weekly time spending: 10 hrs (3hrs video + 4 hrs assignments + 3 hrs reading)
 
-# Aug 17th, 2019
+[TOC]
+
+# Lecture 1, Aug 17th, 2019
+## Notes
 objected-oriented: can identify what class it is and choose/assign relative methods based on the class
 
-## Constructor
+### Constructor
 
 *example:*
 
@@ -34,13 +37,13 @@ Java programs must be compiled before you run them. \[interpreter language, comp
 3. new String(s) takes a parameter s, makes copy of the object that s references
 4. and there are more string constructors which share the same constructor name. Which constructor to call depends on the parameters you passed, and the result it returned would vary accordingly.
 
-## Methods
+### Methods
     s2 = s.toUppercase();             // s2 → YOW!
     String s3 = s2.concat("!!");      // s3 = s2 + "!!"; s3 → YOW!!!; no variable was changed, all the methods do is constructing new objects
 
 Strings in Java are immutable. Once they are constucted, you can never change the content. Most Java classes allow changes of their inner field, but String is an exception.
 
-## I/O Classes & Objects
+### I/O Classes & Objects
     system.out: a printstream object that outputs to the screen. It references a printstream object
     system.in: an inputstream object that reads from the keyboard.
 
@@ -51,7 +54,30 @@ readline is defined on BufferedReader objects
     Q: How do we construct a InputStreamReader?   A: with an InputStream
     Q: How do we construct a InputStream?      A: system.in is one            //Figure all the stuff out via online java libraries API - java.io
     InputStream - read raw data
-    InputStreamReader - compose raw data into characters
+    InputStreamReader - compose raw data into characters (2 bytes long in Java, 2-byte unicode)
     BufferedReader - composed characters into a line
+    
+    ##Why 3 parts? Because in that way you can replace a part of them. Input from internet or a file; Character coding
+    
+<br/><br/>
+*coding example*
+
+    import java.io.*;
+    class SimpleIO{
+        // this class/program reads a line, print the line and then it terminates.
+    
+        // main method is the FIRST method being executed when you call the class from a Java program
+        public static void main(String[] arg) throws Exception{
+            BufferedReader keybd = new BufferedReader(new InputStreamReader(new InputStream(System.in)));
+            System.out.println(keybd.readLine());
+        }
+    }
+
+Notice:
+- To use Java libraries other than java.lang, you need to "import" them
+- java.io includes InputStreamReader, BufferedReader, etc
+- Java program always begins at a method called "main"
+
+
 
 
