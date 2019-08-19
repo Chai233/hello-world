@@ -2,7 +2,7 @@ weekly time spending: 10 hrs (3hrs video + 4 hrs assignments + 3 hrs reading)
 
 # Record
 - Lecture Video: Aug 17th
-- Reading: Sierra & Bates, pp. 1–9, 18–19, 84
+- Reading: Sierra & Bates, pp. 1–9 √(Aug 18th~19th midnight), 18–19, 84
 
 # Notes
 objected-oriented: can identify what class it is and choose/assign relative methods based on the class
